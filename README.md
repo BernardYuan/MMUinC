@@ -1,15 +1,15 @@
 #Low Sir's real homework of Week11
-## The Single Clock CPU is for Week12
+#### The Single Clock CPU is actually for Week12
 
-###Basics
-1. use for memory pieces for storage
-
-  - so that the byte aligned memory can be more flexible
-2. bitshift according to the address
-
-  - how to combine the bytes together to make words and halfwords
+###Finished Parts
+* Small Endians for word memory, halfword memory and byte memory. including the Multi-Memory situation.
+* The instructions that are finished are:
+  * lw, lh, lb, sw, sh, sb
 
 ### Parts to be done:
-1. Possible overflow at the border when calculating the address
+* Big Endians for what mentioned above.
 
-  - The warning should be added
+* Debug those parts.
+
+###Note
+* The byte and halfword memories are relatively stable. While for the word bytes, some inductions are used to simplify the code, which makes the code more brief, while is not debugged yet.
