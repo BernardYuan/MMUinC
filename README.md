@@ -27,7 +27,7 @@
 * The testing program is following: which tests with nearly all cases except for overflow, or segment fault.
 
 
-      int main(void) {
+        int main(void) {
 
           sw(0,0x01234567);
           sw(3,0x89abcdef);
